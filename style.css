@@ -61,4 +61,8 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}.icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
