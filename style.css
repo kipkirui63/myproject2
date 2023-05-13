@@ -1,3 +1,38 @@
-.title{
-    display: flex;
+nav{
+    display: inline;
+}
+.nav-bar{
+    border-bottom: 1px solid black;
+}
+li{
+    display: inline-flex;
+    padding: 15px;
+}
+.item1{
+    float: left;
+    width: 33.33%;
+    margin-left: 25px;
+    font-weight: bolder;
+    
+}
+.item2{
+    width: 33.33%;
+    float: left;
+    margin-bottom: 80px;
+
+}
+li button{
+    background-color: rgb(241, 94, 26);
+    border-radius: 3px;
+    font-weight: bold;
+    border: none;
+    padding: 5px 15px;
+}
+.row{
+    float:left;
+    clear: right;
+}
+img{
+    width: 500px;
+    height: 500px;
 }
