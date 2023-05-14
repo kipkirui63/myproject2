@@ -12,7 +12,7 @@
 
 ```
 
-1. git clone https://github.com/kipkirui63/My-Car-Website.git
+1. git clone https://github.com/kipkirui63/myproject2.git
 2. git add filename
 3. git commit -m "initial"
 
