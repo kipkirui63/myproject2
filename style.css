@@ -46,6 +46,9 @@ li button{
    display: flex;
    justify-content: space-around;
 }
+.rowlogo{
+    display: flex;
+}
 img{
     width: 200px;
     height: 200px;
@@ -280,4 +283,22 @@ input{
     background-color: orangered;
     border-radius: 10px;
     border: none;
+}
+@media (max-width: 600px) {
+
+    .item2,
+    .item3 {
+        display: none;
+    }
+    .column {
+        width: 100%;
+    }
+    .columnk {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+ul{
+    text-align: left;
 }
