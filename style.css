@@ -50,7 +50,13 @@ img{
 }
 .logos{
     display: flex;
-    justify-content: space-around;
+    justify-content:;
+    text-align: ;
+    width: ;
+    
+}
+#gf{
+    float: right;
 }
 .logo-btn {
     padding: 10px 25px;
@@ -58,6 +64,7 @@ img{
     border-radius: 5px;
     border: 1px solid lightgrey;
     background-color: white;
+    height: 40px;
 }
 .logo-btn1{
     padding: 10px 25px;
@@ -71,6 +78,7 @@ img{
     font-size:20px;
     font-weight: lighter;
     margin: 25px;
+    display: 
     
 }
 #audi{
@@ -83,22 +91,37 @@ img{
 span{
     color: orangered;
 }
+.people{
+    display: flex;
+    justify-content: space-around;
+}
 .icon3{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
+}
+.icon4{
+    display: flex;
     justify-content: space-around;
 }
 .icon3-items {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 30%;
     height: 500px;
+    display: inline;
 }
 .items-icon {
     margin-top: -150px;
+    display: ;
+    list-style-type: none;
 }
 .icons3-img {
-    width: 100%;
+    width: 80%;
     background-color: rgb(253, 237, 216);
+    margin-left: 60px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: white;
 }
 .icons3{
     display: flex;
@@ -116,6 +139,7 @@ span{
     padding: 10px 12px;
     font-weight: 600;
     border: none;
+    margin-left: 40px;
 }
 .column4{
     background-color: antiquewhite;
@@ -201,5 +225,12 @@ input{
     padding: 10px;
     border: 2px solid orangered;
     margin: 10px;
-    
+    display: list-item;
+}
+
+.subscribe-btn {
+    padding: 10px 25px;
+    background-color: orangered;
+    border-radius: 10px;
+    border: none;
 }
