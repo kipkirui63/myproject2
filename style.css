@@ -48,29 +48,26 @@ img{
     display: flex;
     justify-content: space-around;
 }
-#gf{
-    float: right;
-}
-#carlogos1{
-    border: none;
-    border-radius: 10px;
-    font-weight: 800;
-    background-color: orangered;
-    padding: 1px 30px;
-}
-#carlogos{
+.logo-btn {
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
     background-color: white;
-    border-radius: 10px;
-    padding: 1px 30px;
-    margin: 8px;
-    border: 1px solid lightgreen;
 }
-#mercedes{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    border: 5px solid none;
+.logo-btn1{
+    padding: 10px 25px;
+    font-weight: 600;
     background-color: orangered;
+    border: none;
+    border-radius: 5px;
+}
+
+.image-txt{
+    font-size:20px;
+    font-weight: lighter;
+    margin: 25px;
+    
 }
 #audi{
     width: 40px;
@@ -78,24 +75,7 @@ img{
     border-radius: 10px;
     border: 5px solid none;
 }
-#honda{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    border: 5px solid none;
-}
-#toyota{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    border: 5px solid none;
-}
-#mazda{
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    border: 5px solid none;
-}
+
 span{
     color: orangered;
 }
@@ -103,6 +83,18 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.icon3-items {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    height: 500px;
+}
+.items-icon {
+    margin-top: -150px;
+}
+.icons3-img {
+    width: 100%;
+    background-color: rgb(253, 237, 216);
 }
 .icons3{
     display: flex;
@@ -177,6 +169,15 @@ h8{
 .gooogle{
     display: flex;
 }
-#car-rental{
-    float: 
+.column-clients {
+    width: 30%;
+    text-align: center;
+}
+.column-clients h5{
+    margin-top: -150px;
+}
+.client-img {
+    width: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
