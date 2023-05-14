@@ -6,9 +6,13 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-li{
+.nav-bar li{
     display: inline-flex;
     padding: 15px;
+}
+.buy-sell li {
+    display: inline;
+    padding: 10px;
 }
 .item1{
     float: left;
@@ -146,9 +150,9 @@ h8{
 }
 .carrental{
     width: 150px;
-    height: 300px;
+    height: 400px;
     margin-left: 800px;
-    margin-top: 600px;
+    margin-top: -350px;
 }
 .bottom{
     display: flex;
@@ -180,4 +184,22 @@ h8{
     width: auto;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
+}
+
+.row2{
+    height: 300px;
+    background-color: antiquewhite;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 100px;
+    border-radius: 15px;
+    margin-top: 50px;
+
+}
+
+input{
+    padding: 10px;
+    border: 2px solid orangered;
+    margin: 10px;
+    
 }
