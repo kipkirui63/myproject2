@@ -72,4 +72,15 @@ img{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}#products{
+    display: block;
+}
+#about{
+    display: block;
+}
+#resources{
+    display: block;
+}
+#subscribe{
+    display: block;
 }
