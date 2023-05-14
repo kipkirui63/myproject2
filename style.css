@@ -48,6 +48,9 @@ img{
     display: flex;
     justify-content: space-around;
 }
+#gf{
+    float: right;
+}
 #carlogos1{
     border: none;
     border-radius: 10px;
