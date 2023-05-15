@@ -21,6 +21,8 @@
 ## Live url
 https://kipkirui63.github.io/myproject2/
 
+## Landing page
+<img width="1440" alt="Landing-page" src="https://github.com/kipkirui63/myproject2/assets/132657975/10444c3d-72e3-4e11-a620-d717eb610d2f">
 
 
 
