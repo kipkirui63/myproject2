@@ -302,3 +302,10 @@ input{
 ul{
     text-align: left;
 }
+img {
+    width: 70%;
+  }
+  @media all and (max-width: 480px)
+            {img{
+                width: 100%;
+            }}
